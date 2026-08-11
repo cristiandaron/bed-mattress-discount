@@ -1,0 +1,20 @@
+query RunInput {
+  cart {
+    lines {
+      id
+      merchandise {
+        __typename
+        ... on ProductVariant {
+          product {
+            id
+            # Bed Collection (smart collection, rule: Vendor != "Madrass").
+            # true on a line => a bed is in the cart = the trigger.
+            inBedCollection: inAnyCollection(
+              ids: ["gid://shopify/Collection/659195199773"]
+            )
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Bed + Mattress discount",
+  "description": "Gives a per-mattress discount (500 or 1000 kr off, per the product list in the function) when at least one bed (any product in the Bed Collection) is in the cart. Amounts are set in code — to change them, edit the function. Just set a title, dates, and activate.",
+  "title": "Bed + Mattress discount"
+}

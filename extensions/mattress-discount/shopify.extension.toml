@@ -1,0 +1,22 @@
+api_version = "2026-04"
+
+[[extensions]]
+name = "t:name"
+handle = "mattress-discount"
+type = "function"
+uid = "44fd14b6-d8ef-eed6-c8ff-44eb57a7ca9dcecf55d9"
+description = "t:description"
+
+  [[extensions.targeting]]
+  target = "purchase.product-discount.run"
+  input_query = "src/run.graphql"
+  export = "run"
+
+  [extensions.build]
+  command = ""
+  path = "dist/function.wasm"
+
+  # Render the discount create/details page using the hosted admin UI extension
+  # (handle must match extensions/mattress-discount-ui/shopify.extension.toml).
+  [extensions.ui]
+  handle = "mattress-discount-ui"
