@@ -30,6 +30,7 @@ const PRODUCT_DISCOUNTS = {
   "gid://shopify/Product/9614564393245": 500, // Madrass Bacic - 80x170x8 cm
   "gid://shopify/Product/9713954816285": 500, // Madrass Bacic - 80x150x8 cm
   "gid://shopify/Product/9872531194141": 500, // Madrass Bacic - 80x180x8 cm
+  "gid://shopify/Product/9167742992669": 500, // Owly Babymadrass 60x120
   // 500 kr off — sovesofa add-ons for the two Gamer ULTIMATE loftsenger. Not mattresses, but
   // they bundle the same way, so they use the same mechanism.
   "gid://shopify/Product/9167776219421": 500, // Sovesofa til Gamer ULTIMATE loftseng 90x200
